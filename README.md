@@ -73,7 +73,7 @@ int main() {
 	}
 
 	printf("10: 빈칸, w,a,s,d: 이동, f: 상호작용\n");
-	printf("지뢰 개수: %", mine);
+	printf("지뢰 개수: %d", mine);
 
 	printf("%4d", 0);
 	for (int i = 1; i <= SIZE; i++)
@@ -174,7 +174,7 @@ int main() {
 		printf("\n");
 	}
 	
-	printf("-1: 지뢰");
+	printf("지뢰: -1\n");
 
 	printf("종료");
 }
